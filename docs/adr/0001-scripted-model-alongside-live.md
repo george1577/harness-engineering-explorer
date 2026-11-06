@@ -1,0 +1,3 @@
+# A scripted fake model is the main teaching mode, alongside a live model
+
+The app teaches the harness, not the model. The paths worth seeing (an unknown tool, malformed arguments, a premature claim, a test failure fed back, compaction, the step limit) rarely fire when a capable real model handles a simple spec, and when they do fire, the next run may not reproduce them. So the agent loop can be driven by a **Scripted** model that replays fixed, named scenarios through the same harness code. It is offline, free, and the same every time. A **Live** mode (OpenAI, as in the notebook) proves the harness works with a real model. Don't remove the scripted model to "make it real": without it, most of what the app exists to show would be invisible most of the time.
